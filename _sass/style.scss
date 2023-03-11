@@ -34,9 +34,18 @@ body {
   background-color: $yellow-color;
 }
 
+.bg-brown {
+  background-color: $brown-color;
+}
+
 .text-yellow {
   color: $yellow-color;
 }
+
+.text-brown {
+  color: $brown-color;
+}
+
 .banner-section {
   @media (min-width: 992px){
     background-image: url(/assets/images/Banner-background-image.png);
