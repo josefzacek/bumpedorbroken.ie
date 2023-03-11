@@ -37,3 +37,25 @@ body {
 .text-yellow {
   color: $yellow-color;
 }
+.banner-section {
+  @media (min-width: 992px){
+    background-image: url(/assets/images/Banner-background-image.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @media (min-width: 992px){
+    h1 {
+      font-size: 50px;
+      line-height: 70px;
+    }
+  }
+
+  .btn {
+    &:hover {
+      background-color: $yellow-color !important;
+      color: $black-color;
+    }
+  }
+}
