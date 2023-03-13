@@ -68,3 +68,12 @@ body {
     }
   }
 }
+
+.about-section {
+  .btn {
+    &:hover {
+      color: $yellow-color;
+      box-shadow: $black-color 0px 0px 0px 2px;
+    }
+  }
+}
