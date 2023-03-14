@@ -77,3 +77,11 @@ body {
     }
   }
 }
+
+.contact-section {
+  a {
+    &:hover {
+      color: $yellow-color;
+    }
+  }
+}
