@@ -85,3 +85,16 @@ body {
     }
   }
 }
+
+footer {
+  .container-fluid {
+    border-top: 2px solid $yellow-color;
+    p {
+      a {
+        &:hover {
+          color: $yellow-color;
+        }
+      }
+    }
+  }
+}
