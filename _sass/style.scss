@@ -9,17 +9,21 @@ html {
 body {
   font-family: 'Anton', sans-serif;
 
-  .navbar-brand {
-    img {
-      max-width: 61px;
+  nav {
+    z-index: 99;
+    
+    .navbar-brand {
+      img {
+        max-width: 61px;
+      }
     }
-  }
 
-  .navbar-nav {
-    li {
-      .btn {
-        &:hover {
-          color: $yellow-color;
+    .navbar-nav {
+      li {
+        .btn {
+          &:hover {
+            color: $yellow-color;
+          }
         }
       }
     }
